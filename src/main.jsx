@@ -25,7 +25,7 @@ const router = createBrowserRouter([
       {
         path: '/book/:bookId',
         element: <SingleBook />,
-        loader: ({ params }) => fetch(`/public/books.json`)
+        loader: ({ params }) => fetch(`../public/books.json`)
           .then(response => {
             if (!response.ok) {
               throw new Error('Failed to fetch book data');
