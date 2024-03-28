@@ -7,7 +7,7 @@ const About = () => {
                         <h2 className="text-3xl font-semibold text-center mb-8">About Book Vibe</h2>
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                             <div>
-                                <img src="/src/assets/about.jpg" alt="About Book Vibe" className="rounded-lg shadow-md" />
+                                <img src="/about.jpg" alt="About Book Vibe" className="rounded-lg shadow-md" />
                             </div>
                             <div>
                                 <p className="text-lg leading-relaxed mb-4">
