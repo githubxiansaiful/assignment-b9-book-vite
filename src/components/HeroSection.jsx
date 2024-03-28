@@ -15,7 +15,7 @@ const HeroSection = () => {
                             </div>
                             <div>
                                 <div className='flex justify-center'>
-                                    <img src="../public/pngwing 1.png" />
+                                    <img src="../pngwing 1.png" />
                                 </div>
                             </div>
                         </div>
